@@ -1,6 +1,6 @@
 # SUBMISSION.md
 
-## Name: Rama Harish Vegesna  
+## Name: Rama Harish Varma Vegesna  
 ## Student ID: 922975128
 
 ### GitHub Repository:
