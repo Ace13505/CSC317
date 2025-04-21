@@ -1,0 +1,109 @@
+/* ===== Hybrid CSS: A Mix of styles.css & ai-1.css ===== */
+
+/* === Global Styles (Mostly from styles.css with some ai-1.css tweaks) === */
+body {
+    font-family: Arial, sans-serif; /* Taken from styles.css */
+    background-color: #f4f4f4; /* Light gray, from ai-1.css */
+    color: #333; /* Darker text for better readability */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* === Header & Navigation (Mostly from styles.css) === */
+  header {
+    background-color: #0071e3; /* Blue color from ai-1.css */
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline; /* Inline layout from styles.css */
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline; /* Hover effect from styles.css */
+  }
+  
+  /* === Hero Section (Mostly from styles.css, with colors from ai-1.css) === */
+  .hero {
+    background-color: #005bb5; /* Dark blue, from ai-1.css */
+    color: white;
+    padding: 100px 20px;
+    margin-top: 60px; /* Prevents overlap with fixed header */
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* === Buttons (Combination of both) === */
+  .btn {
+    display: inline-block;
+    background-color: #0071e3; /* From ai-1.css */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  
+  .btn:hover {
+    background-color: #005bb5; /* Slightly darker on hover */
+  }
+  
+  /* === Projects Section (Mostly from styles.css, grid from ai-1.css) === */
+  .projects {
+    padding: 50px 20px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive layout from ai-1.css */
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
+  /* === Footer (Kept simple, based on styles.css) === */
+  footer {
+    background-color: #eee;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    color: #666;
+  }
+  
