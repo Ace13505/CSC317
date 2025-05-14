@@ -3,7 +3,7 @@
 /* === Global Styles (Mostly from styles.css with some ai-1.css tweaks) === */
 body {
     font-family: Arial, sans-serif; /* Taken from styles.css */
-    background-color: #f4f4f4; /* Light gray, from ai-1.css */
+    background-color: lightblue; /* Light gray, from ai-1.css */
     color: #333; /* Darker text for better readability */
     margin: 0;
     padding: 0;
