@@ -15,7 +15,7 @@ body {
     background-color: #0071e3; /* Blue color from ai-1.css */
     color: white;
     padding: 15px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
   }
