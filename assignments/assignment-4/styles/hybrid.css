@@ -14,10 +14,9 @@ body {
   header {
     background-color: #0071e3; /* Blue color from ai-1.css */
     color: white;
-    padding: 15px 0;
+    padding: 5px 0;
     position: sticky;
     width: 100%;
-    top: 0;
        z-index: 999; /* add this line */
   }
   

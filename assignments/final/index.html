@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rama Harish Varma Vegesna - Portfolio</title>
+    <meta name="description" content="Personal portfolio of Rama Harish Varma Vegesna">
+    <meta name="keywords" content="portfolio, computer science, student, programming">
+    <meta name="author" content="Rama Harish Varma Vegesna">
+    <link rel="icon" type="image/x-icon" href="images/crow.png">
+    <link rel="stylesheet" href="styles/styles.css"> <!-- Corrected path -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Rama Harish Varma Vegesna</h1>
+        <div class="image-row">
+            <div class="image-block">
+                <h2>SFSU</h2>
+                <img src="images/school-logo.jpeg" alt="Your School Logo">
+            </div>
+            <div class="image-block">
+                <h2>Hyderabad</h2>
+                <img src="images/hometown.jpeg" alt="Image of Your Hometown">
+            </div>
+        </div>
+
+
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! My name is Rama Harish Varma Vegesna, and I am a student at San Francisco State University.
+                I have a passion for computers and I am currently studying Computer Science.
+                In my free time, I enjoy playing video games and going to the cinema to watch movies. I hope to use my
+                skills to work at a software company.
+            </p>
+            <p>Growing up in Hyderabad, India, I developed an interest in computers at a young age watching my brother
+                code.
+                This has motivated me to pursue my studies, and I am eager to learn more every day.
+            </p>
+
+            <!-- Embedded Google Maps Location -->
+            <h3>Location</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30449.998690056756!2d78.35591960416201!3d17.447752290748614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dc8c5d69df%3A0x19688beb557fa0ee!2sHITEC%20City%2C%20Hyderabad%2C%20Telangana%20500081%2C%20India!5e0!3m2!1sen!2sus!4v1739940691373!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>San Francisco State University<br>
+                    <ul>
+                        <li>Major: Computer Science</li>
+                        <li>Expected Graduation: 2026</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Courses & Achievements Table -->
+            <h3>Courses & Achievements</h3>
+            <table border="1">
+                <tr>
+                    <th>Course</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>Introuction to Computer Programming</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Physics I with Calculus</td>
+                    <td>B+</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>JavaScript Calculator</h3>
+                <img src="images/calculator-preview.jpeg" alt="Calculator Preview" class="project-image">
+                <p>A simple and responsive calculator built using HTML, CSS, and JavaScript. It supports basic
+                    arithmetic operations, percent, decimal point, and keyboard inputs.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <a href="calculator.html" target="_blank">View Calculator</a>
+
+                <!-- Embedded GitHub Repository -->
+                <h3>GitHub Repository</h3>
+                <a href="https://github.com/Ace13505/CSC317" target="_blank">Github Repository</a>
+            </article>
+            <article>
+                <h3>Group Project: After The Credits</h3>
+                <img src="images/group-project-preview.jpg" alt="Group Project Preview" class="project-image">
+                <p> A modern film review and discovery platform where users can browse, rate, and discuss movies.
+                    Built with Node.js, Express, MongoDB, and EJS, featuring a responsive UI, personal watchlists,
+                    and secure authentication.
+                </p>
+                <p><strong>My role:</strong> UI/UX & interactivity — JavaScript features like star ratings, form
+                    validation, and user experience enhancements.</p>
+
+
+                <!-- Live Project Link -->
+                <a href="https://csc317-group-a.onrender.com/" target="_blank">Project on Rendert</a>
+
+                <!-- GitHub Repository Embed -->
+                <h3>GitHub Repository</h3>
+                <a href="https://github.com/arianna-lnsng/CSC317-Group-Project" target="_blank">Github Repository</a>
+
+            </article>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <ol>
+                <li>No work experience yet.</li>
+            </ol>
+        </section>
+
+        <!-- Contact Section with Form -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required> <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required> <br>
+
+                <label for="message">Message:</label> <br>
+                <textarea id="message" name="message" rows="4" required></textarea> <br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Rama Harish Varma. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
