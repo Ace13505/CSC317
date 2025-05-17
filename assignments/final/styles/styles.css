@@ -134,3 +134,8 @@ footer {
   margin-bottom: 1em;
   border-radius: 8px; /* optional */
 }
+section h1,
+section h2,
+section h3 {
+  color: #003366;; 
+}
